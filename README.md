@@ -2,4 +2,5 @@
 AI background programming
 
 python3 -m venv venv
+
 jupyter [folder]
