@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "age": 28,
+        "department": "Engineering",
+        "salary": 75000,
+        "hire_date": "2022-03-15",
+        "is_remote": true,
+        "performance_rating": 4.2
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "age": 34,
+        "department": "Marketing",
+        "salary": 65000,
+        "hire_date": "2021-07-22",
+        "is_remote": false,
+        "performance_rating": 3.8
+    },
+    {
+        "id": 3,
+        "name": "Carol Davis",
+        "age": 31,
+        "department": "Engineering",
+        "salary": 82000,
+        "hire_date": "2020-11-08",
+        "is_remote": true,
+        "performance_rating": 4.5
+    },
+    {
+        "id": 4,
+        "name": "David Wilson",
+        "age": 29,
+        "department": "Sales",
+        "salary": 58000,
+        "hire_date": "2023-01-10",
+        "is_remote": false,
+        "performance_rating": 3.9
+    },
+    {
+        "id": 5,
+        "name": "Eva Brown",
+        "age": 26,
+        "department": "HR",
+        "salary": 55000,
+        "hire_date": "2022-09-05",
+        "is_remote": true,
+        "performance_rating": 4.1
+    },
+    {
+        "id": 6,
+        "name": "Frank Miller",
+        "age": 37,
+        "department": "Engineering",
+        "salary": 95000,
+        "hire_date": "2019-04-12",
+        "is_remote": false,
+        "performance_rating": 4.7
+    },
+    {
+        "id": 7,
+        "name": "Grace Lee",
+        "age": 32,
+        "department": "Marketing",
+        "salary": 70000,
+        "hire_date": "2021-12-03",
+        "is_remote": true,
+        "performance_rating": 4.0
+    },
+    {
+        "id": 8,
+        "name": "Henry Taylor",
+        "age": 25,
+        "department": "Sales",
+        "salary": 52000,
+        "hire_date": "2023-06-18",
+        "is_remote": false,
+        "performance_rating": 3.6
+    }
+]
