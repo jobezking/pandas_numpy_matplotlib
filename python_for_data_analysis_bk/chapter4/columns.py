@@ -47,3 +47,41 @@ data = {
 df = pd.DataFrame(data) # Filter customers older than 30 and in either New York or Chicago 
 filtered_customers = df[(df['Age'] > 30) & (df['City'].isin(['New York', 'Chicago']))] 
 print(filtered_customers)
+
+data = {     
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],     
+    'Age': [25, 30, 35, 40, 22],     
+    'Sales': [200, 450, 300, 500, 150] 
+}   
+df = pd.DataFrame(data)   # Sort by Age ascending (default) 
+sorted_by_age = df.sort_values('Age') 
+print(sorted_by_age)
+
+sorted_by_sales_desc = df.sort_values('Sales', ascending=False) 
+print(sorted_by_sales_desc)
+
+sorted_multiple = df.sort_values(['Age', 'Sales'], ascending=[True, False]) 
+print(sorted_multiple)
+
+df_indexed = df.set_index('Name') 
+sorted_index = df_indexed.sort_index() 
+print(sorted_index)
+
+df['Sales_rank'] = df['Sales'].rank() 
+print(df)
+
+df['Sales_rank_min'] = df['Sales'].rank(method='min') 
+df['Sales_rank_first'] = df['Sales'].rank(method='first') 
+print(df)
+
+df['Sales_rank_desc'] = df['Sales'].rank(ascending=False)
+print(df)
+
+# Sort by Sales descending, then Age ascending 
+sorted_sales = df.sort_values(['Sales', 'Age'], ascending=[False, True])   
+
+# Add ranks for sales
+
+df['Sales_rank'] = df['Sales'].rank(ascending=False, method='min')   
+print(sorted_sales) 
+print(df)
