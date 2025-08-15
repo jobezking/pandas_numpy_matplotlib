@@ -109,3 +109,50 @@
 [I 2025-08-14 21:10:35.077 ServerApp] Saving file at /chapter10.ipynb
 [I 2025-08-14 21:14:35.104 ServerApp] Saving file at /chapter10.ipynb
 [I 2025-08-14 21:21:06.342 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 21:25:06.365 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 21:25:53.353 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 22:57:53.389 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 22:58:58.308 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:00:58.330 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:01:12.520 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:03:12.541 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:13:12.576 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:15:12.606 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:17:12.629 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:19:12.649 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:21:12.674 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:22:11.091 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:23:33.147 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:25:33.187 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:28:40.424 ServerApp] Creating new file in 
+[I 2025-08-14 23:28:40.856 ServerApp] Connecting to kernel 5c01ff2d-f443-41ba-8b64-fd3a7590e165.
+[I 2025-08-14 23:28:40.869 ServerApp] Connecting to kernel c7fbd231-2fd8-4fbf-bb89-251d88bd17d9.
+[I 2025-08-14 23:28:40.992 ServerApp] Starting buffering for 5c01ff2d-f443-41ba-8b64-fd3a7590e165:75792adc-6bb6-491c-b1b7-2a4e9e38e650
+[W 2025-08-14 23:29:03.032 ServerApp] 404 GET /api/contents/oneline_retail.py?1755228543030 (68387f6c7a8747b7ab77c2f02fba2cf3@127.0.0.1) 0.60ms referer=http://localhost:8888/edit/untitled.py
+[W 2025-08-14 23:29:03.032 ServerApp] 404 GET /api/contents/oneline_retail.py?1755228543030 (127.0.0.1): No such file or directory: oneline_retail.py
+[I 2025-08-14 23:29:03.035 ServerApp] Uploading file to /oneline_retail.py
+[I 2025-08-14 23:29:03.439 ServerApp] Connecting to kernel 5c01ff2d-f443-41ba-8b64-fd3a7590e165.
+[I 2025-08-14 23:29:03.453 ServerApp] Connecting to kernel c7fbd231-2fd8-4fbf-bb89-251d88bd17d9.
+[I 2025-08-14 23:29:03.578 ServerApp] Starting buffering for 5c01ff2d-f443-41ba-8b64-fd3a7590e165:ff93dbdf-e60c-4bbc-bb94-3f4f4f74ff2f
+[I 2025-08-14 23:29:17.787 ServerApp] Connecting to kernel 5c01ff2d-f443-41ba-8b64-fd3a7590e165.
+[I 2025-08-14 23:29:17.801 ServerApp] Connecting to kernel c7fbd231-2fd8-4fbf-bb89-251d88bd17d9.
+[I 2025-08-14 23:29:17.934 ServerApp] Starting buffering for 5c01ff2d-f443-41ba-8b64-fd3a7590e165:8b37d258-7d68-41a0-8244-62b7f3bcd621
+[W 2025-08-14 23:29:26.999 ServerApp] delete /untitled.py
+[I 2025-08-14 23:29:33.682 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:29:34.763 ServerApp] New terminal with automatic name: 1
+[I 2025-08-14 23:29:35.060 ServerApp] Connecting to kernel 5c01ff2d-f443-41ba-8b64-fd3a7590e165.
+[I 2025-08-14 23:29:35.073 ServerApp] Connecting to kernel c7fbd231-2fd8-4fbf-bb89-251d88bd17d9.
+[I 2025-08-14 23:29:35.264 ServerApp] Starting buffering for 5c01ff2d-f443-41ba-8b64-fd3a7590e165:f80c4f19-a10d-4859-8878-e67334f7ba0e
+[W 2025-08-14 23:32:16.438 ServerApp] delete /oneline_retail.py
+[I 2025-08-14 23:35:34.685 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:37:34.728 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:39:34.779 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:39:35.020 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:40:55.929 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:42:10.939 ServerApp] Saving file at /chapter10.ipynb
+[I 2025-08-14 23:42:18.232 ServerApp] Kernel shutdown: 5c01ff2d-f443-41ba-8b64-fd3a7590e165
+[I 2025-08-14 23:42:18.233 ServerApp] Kernel shutdown: c7fbd231-2fd8-4fbf-bb89-251d88bd17d9
+[I 2025-08-14 23:42:18.234 ServerApp] EOF on FD 51; stopping reading
+[I 2025-08-14 23:42:18.335 ServerApp] Terminal 1 closed
+[I 2025-08-14 23:42:19.056 ServerApp] Shutting down on /api/shutdown request.
+[I 2025-08-14 23:42:19.056 ServerApp] Shutting down 6 extensions
