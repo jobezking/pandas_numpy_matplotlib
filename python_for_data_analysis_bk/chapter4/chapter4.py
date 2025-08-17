@@ -23,4 +23,5 @@ print(df.head())
 
 df.to_csv('cleaned_data.csv',index=False)
 df.to_excel('summary_report.xlsx',sheet_name='Summary',index=False)
-df.to_json('data.json',orient=records)
+df.to_json('data.json',orient='records')
+
