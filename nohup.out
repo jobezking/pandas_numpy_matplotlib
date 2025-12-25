@@ -1,0 +1,193 @@
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: kernel kernelspec migrate run troubleshoot
+
+Jupyter command `jupyter-notebook` not found.
+usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
+               [--paths] [--json] [--debug]
+               [subcommand]
+
+Jupyter: Interactive Computing
+
+positional arguments:
+  subcommand     the subcommand to launch
+
+options:
+  -h, --help     show this help message and exit
+  --version      show the versions of core jupyter packages and exit
+  --config-dir   show Jupyter config dir
+  --data-dir     show Jupyter data dir
+  --runtime-dir  show Jupyter runtime dir
+  --paths        show all Jupyter paths. Add --json for machine-readable
+                 format.
+  --json         output paths as machine-readable json
+  --debug        output debug information about paths
+
+Available subcommands: kernel kernelspec migrate run troubleshoot
+
+Jupyter command `jupyter-notebook` not found.
+[I 2025-12-24 18:54:56.104 ServerApp] Extension package panel.io.jupyter_server_extension took 0.7013s to import
+[I 2025-12-24 18:54:56.105 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-12-24 18:54:56.108 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-12-24 18:54:56.111 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-12-24 18:54:56.114 ServerApp] notebook | extension was successfully linked.
+[I 2025-12-24 18:54:56.368 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-12-24 18:54:56.368 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-12-24 18:54:57.647 ServerApp] nb_conda_kernels | enabled, 4 kernels found.
+[I 2025-12-24 18:54:57.660 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-12-24 18:54:57.662 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-12-24 18:54:57.662 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-12-24 18:54:57.664 LabApp] JupyterLab extension loaded from /mnt/optdata/anaconda3/lib/python3.13/site-packages/jupyterlab
+[I 2025-12-24 18:54:57.664 LabApp] JupyterLab application directory is /mnt/optdata/anaconda3/share/jupyter/lab
+[I 2025-12-24 18:54:57.664 LabApp] Extension Manager is 'pypi'.
+[I 2025-12-24 18:54:57.687 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-12-24 18:54:57.689 ServerApp] notebook | extension was successfully loaded.
+[I 2025-12-24 18:54:57.690 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-12-24 18:54:57.691 ServerApp] Serving notebooks from local directory: /home/jeking/github/pandas_numpy_matplotlib/EDA
+[I 2025-12-24 18:54:57.691 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2025-12-24 18:54:57.691 ServerApp] http://localhost:8888/tree?token=824b8b43b0e7ead7617ce9c05c1559da256f6bf019c6e349
+[I 2025-12-24 18:54:57.691 ServerApp]     http://127.0.0.1:8888/tree?token=824b8b43b0e7ead7617ce9c05c1559da256f6bf019c6e349
+[I 2025-12-24 18:54:57.691 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-12-24 18:54:57.734 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jeking/.local/share/jupyter/runtime/jpserver-13560-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=824b8b43b0e7ead7617ce9c05c1559da256f6bf019c6e349
+        http://127.0.0.1:8888/tree?token=824b8b43b0e7ead7617ce9c05c1559da256f6bf019c6e349
+[I 2025-12-24 18:54:57.982 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-12-24 18:55:31.302 ServerApp] Creating new notebook in 
+[I 2025-12-24 18:55:31.428 ServerApp] Writing notebook-signing key to /home/jeking/.local/share/jupyter/notebook_secret
+[I 2025-12-24 18:55:44.563 ServerApp] Kernel started: 9dffbe38-4840-4385-91b3-c5470dbee81a
+CONDA_PREFIX=/mnt/optdata/anaconda3/envs/eda_env
+[I 2025-12-24 18:55:45.697 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 18:55:45.700 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[W 2025-12-24 18:55:45.702 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-12-24 18:55:45.711 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 18:57:56.164 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 18:58:30.165 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:03:48.159 ServerApp] Creating new notebook in 
+[I 2025-12-24 19:03:49.023 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:03:51.431 ServerApp] Kernel started: ed1effd4-7b52-420e-b98f-c258f55ce3f9
+[I 2025-12-24 19:03:51.924 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:03:51.927 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:03:51.938 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:04:38.151 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:04:38.164 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:04:42.102 ServerApp] Creating new notebook in 
+[I 2025-12-24 19:04:42.882 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:04:42.895 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:04:45.525 ServerApp] Kernel started: f4e1c1f7-4ef0-4dae-995d-2b58e939ea90
+[I 2025-12-24 19:04:45.923 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:06:13.157 ServerApp] Saving file at /sweetviz.ipynb
+[I 2025-12-24 19:06:43.258 ServerApp] Saving file at /Untitled.ipynb
+[I 2025-12-24 19:19:16.583 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:19:16.598 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:19:16.614 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:20:13.166 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:22:21.181 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:28:22.150 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:30:22.196 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:31:43.303 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:33:01.262 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:34:21.446 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:35:43.799 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:37:43.861 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:37:58.315 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:40:33.944 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:51925d24-ad86-441f-a4e8-d8e30a17f94f
+[I 2025-12-24 19:40:39.208 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:40:39.223 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:40:39.244 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:40:39.560 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:161ced57-d7b9-42d3-8647-d6bec9ae2b0c
+[I 2025-12-24 19:40:39.947 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:42:26.429 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:44:26.489 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:45:42.552 ServerApp] Kernel interrupted: 9dffbe38-4840-4385-91b3-c5470dbee81a
+[I 2025-12-24 19:46:27.161 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:48:05.395 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:55:26.993 ServerApp] Saving file at /chapter1.ipynb
+[I 2025-12-24 19:57:56.950 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:ec1cd34a-62e1-4978-9fe2-a50080b68d46
+[I 2025-12-24 19:57:57.579 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:25bfe566-7a14-4412-a6ef-06909e9c4235
+[I 2025-12-24 19:57:58.329 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:60f735d7-9f0c-4fa7-b11c-9453acef7ae7
+[I 2025-12-24 19:58:06.065 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:58:06.080 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:58:06.098 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:58:06.246 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:a8660beb-e3dc-4ecb-9919-0bcd1d8ba01b
+[I 2025-12-24 19:58:06.247 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:67a21e60-bffa-4759-b7e1-bcd1bb01c525
+[I 2025-12-24 19:58:06.247 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:f6bc0f5a-70b0-476d-bbc7-52ed776e0cbf
+[I 2025-12-24 19:58:14.087 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:58:14.109 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:58:14.124 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:58:14.413 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:fedeb71e-0864-4907-975f-7b11d3154059
+[I 2025-12-24 19:58:14.415 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:145fd10a-171b-4ae2-a320-6633191dd2cf
+[I 2025-12-24 19:58:14.416 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:7d680791-b7ed-4796-8dd2-124dbf9adcec
+[I 2025-12-24 19:58:14.553 ServerApp] Kernel started: 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc
+[I 2025-12-24 19:58:15.078 ServerApp] Connecting to kernel 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc.
+[I 2025-12-24 19:58:16.947 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:58:16.962 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:58:16.974 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:58:16.988 ServerApp] Connecting to kernel 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc.
+[I 2025-12-24 19:58:17.206 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:32b9c332-9798-4419-b1bc-81d43d31d43d
+[I 2025-12-24 19:58:17.223 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:6fb28db3-92da-4b34-8d04-372ff138e9cb
+[I 2025-12-24 19:58:17.224 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:b0b5191c-a60a-4379-8aa0-c0d7eeb461d3
+[I 2025-12-24 19:58:17.356 ServerApp] Kernel started: 802350d1-b431-4f36-bd1f-831ebb377005
+[I 2025-12-24 19:58:17.801 ServerApp] Connecting to kernel 802350d1-b431-4f36-bd1f-831ebb377005.
+[I 2025-12-24 19:58:58.762 ServerApp] Starting buffering for 802350d1-b431-4f36-bd1f-831ebb377005:0b80a861-252d-4b2d-9eb3-7b445c4de04b
+[W 2025-12-24 19:59:00.142 ServerApp] 404 GET /api/contents/chapter1?content=1&hash=0&1766624340138 (aa34bcd7476c423c8e68c5c14c1ab913@::1) 1.44ms referer=http://localhost:8888/tree/chapter1
+[W 2025-12-24 19:59:00.143 ServerApp] 404 GET /api/contents/chapter1?content=1&hash=0&1766624340138 (::1): No such file or directory: chapter1
+[I 2025-12-24 19:59:00.207 ServerApp] Starting buffering for 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc:d8cb8f44-5da7-430d-aa78-137e3a1ec386
+[I 2025-12-24 19:59:15.064 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 19:59:15.080 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 19:59:15.092 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 19:59:15.107 ServerApp] Connecting to kernel 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc.
+[I 2025-12-24 19:59:15.121 ServerApp] Connecting to kernel 802350d1-b431-4f36-bd1f-831ebb377005.
+[I 2025-12-24 19:59:15.356 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:23dda19e-31d6-4d66-b177-6bb4df658e2e
+[I 2025-12-24 19:59:15.363 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:494beced-74f3-403b-b327-c8c780e45e5f
+[I 2025-12-24 19:59:15.363 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:a96e53bd-1086-4e8f-80c3-db16570caa12
+[I 2025-12-24 19:59:15.364 ServerApp] Starting buffering for 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc:ef858ad9-3117-4630-8c02-12316fd8bd4a
+[I 2025-12-24 19:59:15.364 ServerApp] Starting buffering for 802350d1-b431-4f36-bd1f-831ebb377005:7fbc8779-1960-46e5-b6c4-a0d5d790cfdf
+[I 2025-12-24 19:59:15.869 ServerApp] Kernel started: 767ac83c-fede-493f-bf9d-83e60606a704
+CONDA_PREFIX=/mnt/optdata/anaconda3/envs/eda_env
+[E 2025-12-24 19:59:17.163 ServerApp] Uncaught exception GET /api/kernels/767ac83c-fede-493f-bf9d-83e60606a704/channels?session_id=ddc6771b-6c6a-4947-801f-20ac9c9b99e1 (::1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/api/kernels/767ac83c-fede-493f-bf9d-83e60606a704/channels?session_id=ddc6771b-6c6a-4947-801f-20ac9c9b99e1', version='HTTP/1.1', remote_ip='::1')
+    Traceback (most recent call last):
+      File "/mnt/optdata/anaconda3/lib/python3.13/site-packages/tornado/web.py", line 1859, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/mnt/optdata/anaconda3/lib/python3.13/site-packages/jupyter_server/services/kernels/websocket.py", line 66, in get
+        await super().get(kernel_id=kernel_id)
+      File "/mnt/optdata/anaconda3/lib/python3.13/site-packages/tornado/websocket.py", line 277, in get
+        await self.ws_connection.accept_connection(self)
+      File "/mnt/optdata/anaconda3/lib/python3.13/site-packages/tornado/websocket.py", line 890, in accept_connection
+        await self._accept_connection(handler)
+      File "/mnt/optdata/anaconda3/lib/python3.13/site-packages/tornado/websocket.py", line 930, in _accept_connection
+        self.selected_subprotocol = handler.select_subprotocol(subprotocols)
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+      File "/mnt/optdata/anaconda3/lib/python3.13/site-packages/jupyter_server/services/kernels/websocket.py", line 88, in select_subprotocol
+        preferred_protocol = self.connection.kernel_ws_protocol
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    AttributeError: 'NoneType' object has no attribute 'kernel_ws_protocol'
+[E 2025-12-24 19:59:17.241 ServerApp] {
+      "Host": "localhost:8888",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    }
+[E 2025-12-24 19:59:17.241 ServerApp] 500 GET /api/kernels/767ac83c-fede-493f-bf9d-83e60606a704/channels?session_id=ddc6771b-6c6a-4947-801f-20ac9c9b99e1 (aa34bcd7476c423c8e68c5c14c1ab913@::1) 1360.62ms referer=None
