@@ -191,3 +191,56 @@ CONDA_PREFIX=/mnt/optdata/anaconda3/envs/eda_env
       "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
     }
 [E 2025-12-24 19:59:17.241 ServerApp] 500 GET /api/kernels/767ac83c-fede-493f-bf9d-83e60606a704/channels?session_id=ddc6771b-6c6a-4947-801f-20ac9c9b99e1 (aa34bcd7476c423c8e68c5c14c1ab913@::1) 1360.62ms referer=None
+[I 2025-12-24 20:00:42.312 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 20:00:42.326 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 20:00:42.339 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 20:00:42.354 ServerApp] Connecting to kernel 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc.
+[I 2025-12-24 20:00:42.367 ServerApp] Connecting to kernel 802350d1-b431-4f36-bd1f-831ebb377005.
+[I 2025-12-24 20:00:42.379 ServerApp] Connecting to kernel 767ac83c-fede-493f-bf9d-83e60606a704.
+[I 2025-12-24 20:00:42.658 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:0fbccd04-4b9a-4ebb-bb16-6771c79abcab
+[I 2025-12-24 20:00:42.660 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:c66b6ecf-45e4-4e39-8de8-020d3ac09b6b
+[I 2025-12-24 20:00:42.661 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:0c551e19-b746-4aa3-b500-7738b592d6ca
+[I 2025-12-24 20:00:42.662 ServerApp] Starting buffering for 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc:11d2a716-7c80-4575-a9e5-27f082a6d906
+[I 2025-12-24 20:00:42.663 ServerApp] Starting buffering for 802350d1-b431-4f36-bd1f-831ebb377005:d39a7ea5-2a0e-434f-8274-c94262832e90
+[I 2025-12-24 20:00:42.724 ServerApp] Kernel started: 3de161ef-bfad-4baf-b82a-8e9491c847bd
+[I 2025-12-24 20:00:43.245 ServerApp] Connecting to kernel 3de161ef-bfad-4baf-b82a-8e9491c847bd.
+[I 2025-12-24 20:00:44.688 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 20:00:44.710 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 20:00:44.725 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 20:00:44.738 ServerApp] Connecting to kernel 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc.
+[I 2025-12-24 20:00:44.754 ServerApp] Connecting to kernel 802350d1-b431-4f36-bd1f-831ebb377005.
+[I 2025-12-24 20:00:44.768 ServerApp] Connecting to kernel 767ac83c-fede-493f-bf9d-83e60606a704.
+[I 2025-12-24 20:00:44.782 ServerApp] Connecting to kernel 3de161ef-bfad-4baf-b82a-8e9491c847bd.
+[I 2025-12-24 20:00:45.012 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:ca87bb10-c411-4b81-a7c6-a80dd593a04a
+[I 2025-12-24 20:00:45.013 ServerApp] Starting buffering for 802350d1-b431-4f36-bd1f-831ebb377005:1fa709aa-f4b4-4284-8634-80af697d796f
+[I 2025-12-24 20:00:45.015 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:d98025f1-c246-4008-b77f-e6e584ef3ca5
+[I 2025-12-24 20:00:45.015 ServerApp] Starting buffering for 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc:d8967045-149d-4e9e-90c0-907e730b73ee
+[I 2025-12-24 20:00:45.016 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:eb01454b-f190-4c9f-8629-e1cabc9db5c6
+[I 2025-12-24 20:00:45.172 ServerApp] Kernel started: ba2098e9-f1b0-4980-a89f-1fcb7ed511df
+[I 2025-12-24 20:00:45.641 ServerApp] Connecting to kernel ba2098e9-f1b0-4980-a89f-1fcb7ed511df.
+[I 2025-12-24 20:06:42.692 ServerApp] Saving file at /automatedEDA/sweetviz.ipynb
+[I 2025-12-24 20:12:42.749 ServerApp] Saving file at /automatedEDA/sweetviz.ipynb
+[I 2025-12-24 20:14:42.807 ServerApp] Saving file at /automatedEDA/sweetviz.ipynb
+[I 2025-12-24 20:16:42.861 ServerApp] Saving file at /automatedEDA/sweetviz.ipynb
+[I 2025-12-24 20:18:05.037 ServerApp] Saving file at /automatedEDA/sweetviz.ipynb
+[I 2025-12-24 20:18:51.358 ServerApp] Saving file at /automatedEDA/sweetviz.ipynb
+[I 2025-12-24 20:18:53.258 ServerApp] Starting buffering for 3de161ef-bfad-4baf-b82a-8e9491c847bd:1c3765e7-2442-4059-9256-b103cbef5ba0
+[I 2025-12-24 20:18:55.264 ServerApp] Saving file at /automatedEDA/y-data.ipynb
+[I 2025-12-24 20:22:55.325 ServerApp] Saving file at /automatedEDA/y-data.ipynb
+[I 2025-12-24 20:23:58.128 ServerApp] Saving file at /automatedEDA/y-data.ipynb
+[I 2025-12-24 20:29:58.252 ServerApp] Saving file at /automatedEDA/y-data.ipynb
+[I 2025-12-24 20:30:13.132 ServerApp] Connecting to kernel 9dffbe38-4840-4385-91b3-c5470dbee81a.
+[I 2025-12-24 20:30:13.153 ServerApp] Connecting to kernel ed1effd4-7b52-420e-b98f-c258f55ce3f9.
+[I 2025-12-24 20:30:13.166 ServerApp] Connecting to kernel f4e1c1f7-4ef0-4dae-995d-2b58e939ea90.
+[I 2025-12-24 20:30:13.180 ServerApp] Connecting to kernel 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc.
+[I 2025-12-24 20:30:13.193 ServerApp] Connecting to kernel 802350d1-b431-4f36-bd1f-831ebb377005.
+[I 2025-12-24 20:30:13.206 ServerApp] Connecting to kernel 767ac83c-fede-493f-bf9d-83e60606a704.
+[I 2025-12-24 20:30:13.224 ServerApp] Connecting to kernel ba2098e9-f1b0-4980-a89f-1fcb7ed511df.
+[I 2025-12-24 20:30:13.252 ServerApp] Connecting to kernel 3de161ef-bfad-4baf-b82a-8e9491c847bd.
+[I 2025-12-24 20:30:13.601 ServerApp] Starting buffering for 9dffbe38-4840-4385-91b3-c5470dbee81a:67900b4c-f38e-420a-b49d-ebb030a7ead9
+[I 2025-12-24 20:30:13.603 ServerApp] Starting buffering for ed1effd4-7b52-420e-b98f-c258f55ce3f9:b4b20b72-0904-4944-a70c-40738cf91268
+[I 2025-12-24 20:30:13.604 ServerApp] Starting buffering for f4e1c1f7-4ef0-4dae-995d-2b58e939ea90:0d329a68-261e-4caf-a859-0b6f414756cd
+[I 2025-12-24 20:30:13.605 ServerApp] Starting buffering for 8e27d0cd-1a70-4a0d-89a4-e3357ee830bc:95d41962-ae1d-4466-8b87-444155c470dd
+[I 2025-12-24 20:30:13.606 ServerApp] Starting buffering for 802350d1-b431-4f36-bd1f-831ebb377005:d46ddd0d-c7ef-4b10-83ff-588f4cf2db28
+[I 2025-12-24 20:30:13.637 ServerApp] Starting buffering for 3de161ef-bfad-4baf-b82a-8e9491c847bd:38b692e8-c139-4d74-a39c-451157fc42f9
+[I 2025-12-24 20:31:08.952 ServerApp] Saving file at /automatedEDA/y-data.ipynb
