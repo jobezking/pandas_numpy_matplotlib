@@ -611,3 +611,37 @@ Jupyter command `jupyter-notebook` not found.
 [I 2025-12-25 20:00:12.291 ServerApp] Kernel started: 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457
 [I 2025-12-25 20:00:12.804 ServerApp] Adapting from protocol version 5.3 (kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457) to 5.4 (client).
 [I 2025-12-25 20:00:12.806 ServerApp] Connecting to kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457.
+[I 2025-12-25 20:02:19.197 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:18:31.306 ServerApp] Adapting from protocol version 5.3 (kernel f7675446-238d-45b9-8db2-228c801ccd7a) to 5.4 (client).
+[I 2025-12-25 20:18:31.307 ServerApp] Connecting to kernel f7675446-238d-45b9-8db2-228c801ccd7a.
+[I 2025-12-25 20:18:31.324 ServerApp] Adapting from protocol version 5.3 (kernel 761ceb64-627e-432a-91bd-42b75237cb05) to 5.4 (client).
+[I 2025-12-25 20:18:31.328 ServerApp] Connecting to kernel 761ceb64-627e-432a-91bd-42b75237cb05.
+[I 2025-12-25 20:18:31.344 ServerApp] Adapting from protocol version 5.3 (kernel afe2b960-e26f-4e44-9742-1b28135c4fa1) to 5.4 (client).
+[I 2025-12-25 20:18:31.345 ServerApp] Connecting to kernel afe2b960-e26f-4e44-9742-1b28135c4fa1.
+[I 2025-12-25 20:18:31.357 ServerApp] Adapting from protocol version 5.3 (kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457) to 5.4 (client).
+[I 2025-12-25 20:18:31.357 ServerApp] Connecting to kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457.
+[I 2025-12-25 20:18:31.673 ServerApp] Starting buffering for f7675446-238d-45b9-8db2-228c801ccd7a:39f75de5-a25b-44e9-9c88-d0398f92eb5c
+[I 2025-12-25 20:18:31.693 ServerApp] Starting buffering for 761ceb64-627e-432a-91bd-42b75237cb05:c5ea99ba-a53a-479f-bb51-f0f7e77bf0f1
+[I 2025-12-25 20:18:31.697 ServerApp] Starting buffering for afe2b960-e26f-4e44-9742-1b28135c4fa1:f9233598-b39d-4539-8bab-12f89b8a9edb
+[I 2025-12-25 20:18:32.022 ServerApp] Adapting from protocol version 5.3 (kernel afe2b960-e26f-4e44-9742-1b28135c4fa1) to 5.4 (client).
+[I 2025-12-25 20:18:32.022 ServerApp] Connecting to kernel afe2b960-e26f-4e44-9742-1b28135c4fa1.
+[I 2025-12-25 20:18:41.429 ServerApp] Starting buffering for afe2b960-e26f-4e44-9742-1b28135c4fa1:2f0f314c-fba6-4d2c-aa81-68976b0db127
+[I 2025-12-25 20:19:00.186 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:19:32.060 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:25:33.181 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:27:34.278 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:29:34.395 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:31:34.450 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:33:34.503 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:33:45.178 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:39:36.181 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:41:34.765 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:43:34.821 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:45:34.877 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:45:54.206 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:46:25.238 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 20:47:14.438 ServerApp] Saving file at /chap6_data_trans_feat_eng/chap6.ipynb
+[I 2025-12-25 21:17:24.788 ServerApp] Starting buffering for 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457:8161aac5-edc3-48d7-a21c-6375d0a29e5e
+[I 2025-12-25 21:17:24.796 ServerApp] Adapting from protocol version 5.3 (kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457) to 5.4 (client).
+[I 2025-12-25 21:17:24.797 ServerApp] Connecting to kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457.
+[I 2025-12-25 21:17:24.797 ServerApp] Restoring connection for 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457:8161aac5-edc3-48d7-a21c-6375d0a29e5e
