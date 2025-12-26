@@ -645,3 +645,9 @@ Jupyter command `jupyter-notebook` not found.
 [I 2025-12-25 21:17:24.796 ServerApp] Adapting from protocol version 5.3 (kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457) to 5.4 (client).
 [I 2025-12-25 21:17:24.797 ServerApp] Connecting to kernel 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457.
 [I 2025-12-25 21:17:24.797 ServerApp] Restoring connection for 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457:8161aac5-edc3-48d7-a21c-6375d0a29e5e
+[I 2025-12-25 23:14:48.549 ServerApp] Kernel shutdown: f7675446-238d-45b9-8db2-228c801ccd7a
+[I 2025-12-25 23:14:48.553 ServerApp] Kernel shutdown: 761ceb64-627e-432a-91bd-42b75237cb05
+[I 2025-12-25 23:14:48.554 ServerApp] Kernel shutdown: 3da4b595-b7bd-4e7e-8bb4-5eef6b2f1457
+[I 2025-12-25 23:14:48.556 ServerApp] Kernel shutdown: afe2b960-e26f-4e44-9742-1b28135c4fa1
+[I 2025-12-25 23:14:49.490 ServerApp] Shutting down on /api/shutdown request.
+[I 2025-12-25 23:14:49.490 ServerApp] Shutting down 5 extensions
