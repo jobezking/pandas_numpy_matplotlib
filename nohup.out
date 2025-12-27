@@ -1022,3 +1022,80 @@ CONDA_PREFIX=/opt/anaconda3/envs/eda_env
 [I 2025-12-26 20:34:37.262 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
 [I 2025-12-26 20:34:37.363 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:d1e46527-e43e-4be3-be6b-628a07d75dbe
 [I 2025-12-26 20:34:37.428 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:3e8b053b-4242-4ce1-9af9-6d85efc54369
+[I 2025-12-26 20:37:53.067 ServerApp] Creating new notebook in /chap9_feateng
+[I 2025-12-26 20:37:53.713 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:37:53.717 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:37:53.729 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 20:37:53.732 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 20:37:53.959 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:c74fd98d-d99e-4d6f-866c-990ca7001b71
+[I 2025-12-26 20:37:53.960 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:c830cf73-45b3-4f8b-a203-45dbfe43d51d
+[I 2025-12-26 20:38:01.849 ServerApp] Kernel started: 928c263f-1290-4cb4-bed3-2d48416137fa
+CONDA_PREFIX=/opt/anaconda3/envs/eda_env
+[I 2025-12-26 20:38:02.807 ServerApp] Adapting from protocol version 5.3 (kernel 928c263f-1290-4cb4-bed3-2d48416137fa) to 5.4 (client).
+[I 2025-12-26 20:38:02.807 ServerApp] Connecting to kernel 928c263f-1290-4cb4-bed3-2d48416137fa.
+[I 2025-12-26 20:38:24.362 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:38:24.362 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:38:24.376 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 20:38:24.377 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 20:38:24.391 ServerApp] Adapting from protocol version 5.3 (kernel 928c263f-1290-4cb4-bed3-2d48416137fa) to 5.4 (client).
+[I 2025-12-26 20:38:24.393 ServerApp] Connecting to kernel 928c263f-1290-4cb4-bed3-2d48416137fa.
+[I 2025-12-26 20:38:24.519 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:ed468832-ffa1-4488-a462-f84591a98139
+[I 2025-12-26 20:38:24.519 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:8afb2196-df50-437c-958d-77d13e88e7be
+[I 2025-12-26 20:38:32.466 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:38:32.466 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:38:32.478 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 20:38:32.479 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 20:38:32.493 ServerApp] Adapting from protocol version 5.3 (kernel 928c263f-1290-4cb4-bed3-2d48416137fa) to 5.4 (client).
+[I 2025-12-26 20:38:32.495 ServerApp] Connecting to kernel 928c263f-1290-4cb4-bed3-2d48416137fa.
+[I 2025-12-26 20:38:32.599 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:40856692-88f9-493a-b430-b422e1b5dee1
+[I 2025-12-26 20:38:32.600 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:42fb0932-84f4-467b-a5ca-ffaf3231cd87
+[I 2025-12-26 20:39:30.273 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:39:30.275 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:39:30.288 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 20:39:30.289 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 20:39:30.302 ServerApp] Adapting from protocol version 5.3 (kernel 928c263f-1290-4cb4-bed3-2d48416137fa) to 5.4 (client).
+[I 2025-12-26 20:39:30.303 ServerApp] Connecting to kernel 928c263f-1290-4cb4-bed3-2d48416137fa.
+[I 2025-12-26 20:39:30.457 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:37fe9454-7e31-4156-9a08-cdae25d89983
+[I 2025-12-26 20:39:30.462 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:d3ca387b-e09b-4e54-ac8d-c4ed56936fd0
+[I 2025-12-26 20:39:30.660 ServerApp] Kernel started: 447251b0-9d5a-4b94-a50a-c948fb3d8b96
+CONDA_PREFIX=/opt/anaconda3/envs/eda_env
+[I 2025-12-26 20:39:31.603 ServerApp] Adapting from protocol version 5.3 (kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96) to 5.4 (client).
+[I 2025-12-26 20:39:31.604 ServerApp] Connecting to kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96.
+[I 2025-12-26 20:40:11.610 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:40:27.687 ServerApp] Saving file at /chap8_EDA1/chap8.ipynb
+[I 2025-12-26 20:40:29.988 ServerApp] Starting buffering for 447251b0-9d5a-4b94-a50a-c948fb3d8b96:1f62b553-d6fa-47e8-bace-c727dddf7212
+Task exception was never retrieved
+future: <Task finished name='Task-21714' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /opt/anaconda3/lib/python3.13/site-packages/tornado/websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/tornado/websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/tornado/websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2025-12-26 20:40:34.006 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:40:34.007 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:40:34.020 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 20:40:34.020 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 20:40:34.033 ServerApp] Adapting from protocol version 5.3 (kernel 928c263f-1290-4cb4-bed3-2d48416137fa) to 5.4 (client).
+[I 2025-12-26 20:40:34.034 ServerApp] Connecting to kernel 928c263f-1290-4cb4-bed3-2d48416137fa.
+[I 2025-12-26 20:40:34.046 ServerApp] Adapting from protocol version 5.3 (kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96) to 5.4 (client).
+[I 2025-12-26 20:40:34.046 ServerApp] Connecting to kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96.
+[I 2025-12-26 20:40:34.144 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:c52e770b-7a62-4e13-92cc-20d207d469e5
+[I 2025-12-26 20:40:34.144 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:6b5031dc-ba2e-4349-8336-ac768571f22b
+[I 2025-12-26 20:40:34.168 ServerApp] Starting buffering for 447251b0-9d5a-4b94-a50a-c948fb3d8b96:81cbb194-852f-4833-b901-a33c48487538
+[I 2025-12-26 20:42:11.637 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:42:13.037 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:42:51.743 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:44:51.781 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:46:03.096 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:48:03.126 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:48:30.109 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:50:30.144 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:51:49.088 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:54:58.731 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 20:56:50.882 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
