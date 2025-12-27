@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 from sklearn.ensemble import RandomForestClassifier
 
 titanic = pd.read_csv('titanic_cleaned2.csv')
-corr = titanic.corr()
+corr = titanic.corr(numeric_only = True)
 print(corr['survived'])
 
 plt.figure(figsize=(12,8))
@@ -18,9 +18,12 @@ sns.heatmap(corr, cmap='coolwarm', annot=False)
 plt.title("Feature Correlation Heatmap")
 plt.show()
 
-#Doesn't work need to handle categorical features
-X = titanic.drop('survived', axis=1)
-y = titanic['survived']
+#USe numeric only for now
+titanicc = titanic.select_dtypes(include=['int64', 'float64'])  #get numeric features only for now
+X = titanicc.drop('survived', axis=1) 
+y = titanicc['survived']
+#X = titanic.drop('survived', axis=1)
+#y = titanic['survived']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 model = LogisticRegression(max_iter=1000)
