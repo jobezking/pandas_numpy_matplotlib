@@ -1099,3 +1099,35 @@ tornado.websocket.WebSocketClosedError
 [I 2025-12-26 20:51:49.088 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
 [I 2025-12-26 20:54:58.731 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
 [I 2025-12-26 20:56:50.882 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 21:57:36.757 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 21:59:17.904 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 21:59:17.905 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 21:59:17.918 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 21:59:17.919 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 21:59:17.931 ServerApp] Adapting from protocol version 5.3 (kernel 928c263f-1290-4cb4-bed3-2d48416137fa) to 5.4 (client).
+[I 2025-12-26 21:59:17.931 ServerApp] Connecting to kernel 928c263f-1290-4cb4-bed3-2d48416137fa.
+[I 2025-12-26 21:59:17.943 ServerApp] Adapting from protocol version 5.3 (kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96) to 5.4 (client).
+[I 2025-12-26 21:59:17.944 ServerApp] Connecting to kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96.
+[I 2025-12-26 21:59:18.154 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:fc03c284-e8b0-40f3-8e38-8893c8e128f5
+[I 2025-12-26 21:59:18.156 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:06f63d5d-42ea-46a4-9496-0a098746a990
+[I 2025-12-26 21:59:18.157 ServerApp] Starting buffering for 447251b0-9d5a-4b94-a50a-c948fb3d8b96:6076e5c6-d92d-4d6f-ac01-4b4aaf438081
+[I 2025-12-26 21:59:18.333 ServerApp] Adapting from protocol version 5.3 (kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96) to 5.4 (client).
+[I 2025-12-26 21:59:18.334 ServerApp] Connecting to kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96.
+[I 2025-12-26 21:59:37.618 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 22:01:37.660 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 22:03:37.707 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 22:04:00.823 ServerApp] Saving file at /chap9_feateng/chap9.ipynb
+[I 2025-12-26 22:04:16.852 ServerApp] 302 GET / (@127.0.0.1) 0.46ms
+[I 2025-12-26 22:04:16.865 ServerApp] Starting buffering for 928c263f-1290-4cb4-bed3-2d48416137fa:d945514f-9acb-408d-be33-d0606a96eb9a
+[I 2025-12-26 22:04:17.380 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 22:04:17.382 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 22:04:17.395 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 22:04:17.396 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 22:04:17.409 ServerApp] Adapting from protocol version 5.3 (kernel 928c263f-1290-4cb4-bed3-2d48416137fa) to 5.4 (client).
+[I 2025-12-26 22:04:17.411 ServerApp] Connecting to kernel 928c263f-1290-4cb4-bed3-2d48416137fa.
+[I 2025-12-26 22:04:17.466 ServerApp] Adapting from protocol version 5.3 (kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96) to 5.4 (client).
+[I 2025-12-26 22:04:17.474 ServerApp] Connecting to kernel 447251b0-9d5a-4b94-a50a-c948fb3d8b96.
+[I 2025-12-26 22:04:17.493 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:4b972f3f-8f82-4c27-8ecd-edbf452bdcfe
+[I 2025-12-26 22:04:17.518 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:13b12ea0-c30b-4653-b77a-6ee85c019eaa
+[I 2025-12-26 22:04:17.564 ServerApp] Starting buffering for 928c263f-1290-4cb4-bed3-2d48416137fa:3e858320-8b94-4d91-8ae0-b299ff59edc0
+[I 2025-12-26 22:04:20.857 ServerApp] Starting buffering for 447251b0-9d5a-4b94-a50a-c948fb3d8b96:4ef4df8c-f9b8-4a0b-83e7-e4cf6ec4e1dd
