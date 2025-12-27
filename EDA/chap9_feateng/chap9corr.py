@@ -7,6 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.ensemble import RandomForestClassifier
 
 titanic = pd.read_csv('titanic_cleaned2.csv')
 corr = titanic.corr()
@@ -30,3 +31,10 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
+
+coefficients = pd.Series(model.coef_[0], index=X.columns).sort_values(ascending=False)
+print(coefficients.head(10))
+
+rf = RandomForestClassifier(n_estimators=100, random_state=42)
+rf.fit(X_train, y_train) rf_pred = rf.predict(X_test)
+print("Random Forest Accuracy:", accuracy_score(y_test, rf_pred))
