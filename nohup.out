@@ -700,3 +700,88 @@ Jupyter command `jupyter-notebook` not found.
 [I 2025-12-26 15:07:35.089 ServerApp] Kernel shutdown: dd063fba-b0de-45af-9b90-2c7af712f307
 [I 2025-12-26 15:07:35.610 ServerApp] Shutting down on /api/shutdown request.
 [I 2025-12-26 15:07:35.610 ServerApp] Shutting down 5 extensions
+[I 2025-12-26 19:00:08.025 ServerApp] Extension package panel.io.jupyter_server_extension took 0.4962s to import
+[I 2025-12-26 19:00:08.026 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-12-26 19:00:08.028 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-12-26 19:00:08.030 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-12-26 19:00:08.032 ServerApp] notebook | extension was successfully linked.
+[I 2025-12-26 19:00:08.197 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-12-26 19:00:08.197 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-12-26 19:00:10.576 ServerApp] nb_conda_kernels | enabled, 4 kernels found.
+[I 2025-12-26 19:00:10.590 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-12-26 19:00:10.591 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-12-26 19:00:10.592 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-12-26 19:00:10.596 LabApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.13/site-packages/jupyterlab
+[I 2025-12-26 19:00:10.596 LabApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 2025-12-26 19:00:10.596 LabApp] Extension Manager is 'pypi'.
+[I 2025-12-26 19:00:10.624 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-12-26 19:00:10.626 ServerApp] notebook | extension was successfully loaded.
+[I 2025-12-26 19:00:10.626 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-12-26 19:00:10.626 ServerApp] Serving notebooks from local directory: /home/jeking/github/pandas_numpy_matplotlib/EDA
+[I 2025-12-26 19:00:10.626 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-12-26 19:00:10.626 ServerApp] http://localhost:8888/tree?token=185c3de09294e0b3df902c0131d4098c342833951c3b35ad
+[I 2025-12-26 19:00:10.626 ServerApp]     http://127.0.0.1:8888/tree?token=185c3de09294e0b3df902c0131d4098c342833951c3b35ad
+[I 2025-12-26 19:00:10.626 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-12-26 19:00:10.639 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jeking/.local/share/jupyter/runtime/jpserver-73037-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=185c3de09294e0b3df902c0131d4098c342833951c3b35ad
+        http://127.0.0.1:8888/tree?token=185c3de09294e0b3df902c0131d4098c342833951c3b35ad
+[I 2025-12-26 19:00:10.807 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-12-26 19:00:17.294 ServerApp] Kernel started: 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1
+[I 2025-12-26 19:00:17.648 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:00:17.649 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[W 2025-12-26 19:00:17.650 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-12-26 19:00:17.661 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:00:17.661 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:00:17.678 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:00:17.680 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:00:22.623 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:00:22.624 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:02:17.186 ServerApp] Saving file at /chap7/chap7.ipynb
+[I 2025-12-26 19:06:17.614 ServerApp] Saving file at /chap7/chap7.ipynb
+[I 2025-12-26 19:08:17.653 ServerApp] Saving file at /chap7/chap7.ipynb
+[I 2025-12-26 19:08:40.260 ServerApp] Saving file at /chap7/chap7.ipynb
+[I 2025-12-26 19:18:13.518 ServerApp] Creating new notebook in /chap8
+[I 2025-12-26 19:18:14.196 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:18:14.197 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:18:22.089 ServerApp] Kernel started: 7e461606-a64e-419a-bb72-f5d6c729b347
+CONDA_PREFIX=/opt/anaconda3/envs/eda_env
+[I 2025-12-26 19:18:23.026 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:18:23.027 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:18:23.038 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:18:23.039 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:18:23.051 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:18:23.053 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:18:30.786 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:18:30.787 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:18:32.043 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:b0dd830f-c7a0-40fa-94c7-edb8ff34bc15
+[I 2025-12-26 19:20:29.386 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 19:22:35.332 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:22:35.333 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:22:42.216 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:22:42.218 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:22:42.231 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:22:42.232 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:22:42.371 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:22:42.372 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:22:42.384 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:22:42.385 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:22:42.528 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:28bc12db-c2b3-4c2f-8025-fd18211226a5
+[I 2025-12-26 19:24:29.414 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 19:24:46.214 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:24:46.217 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:24:46.229 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:24:46.229 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:24:46.381 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:066cc4eb-fa49-4f74-8ecd-6a3f71644313
+[I 2025-12-26 19:25:39.858 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 19:25:39.859 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 19:25:39.871 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 19:25:39.873 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 19:25:40.004 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:fb1a3154-12ac-4780-bc7a-e0463655abc7
+[I 2025-12-26 19:26:29.623 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 19:28:30.620 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 19:30:31.612 ServerApp] Saving file at /chap8/chap8.ipynb
