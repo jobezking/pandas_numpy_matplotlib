@@ -785,3 +785,240 @@ CONDA_PREFIX=/opt/anaconda3/envs/eda_env
 [I 2025-12-26 19:26:29.623 ServerApp] Saving file at /chap8/chap8.ipynb
 [I 2025-12-26 19:28:30.620 ServerApp] Saving file at /chap8/chap8.ipynb
 [I 2025-12-26 19:30:31.612 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 20:08:47.092 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:08:47.093 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:08:47.105 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 20:08:47.106 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 20:08:47.277 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:2b6311aa-1df7-4371-a397-80585af6a791
+[I 2025-12-26 20:08:47.465 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:08:47.466 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:09:07.926 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:89cb2fa7-1ac5-4561-823d-42ff9c628d33
+[I 2025-12-26 20:15:15.637 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 20:17:02.812 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 20:19:02.843 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 20:20:16.445 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 20:27:38.179 ServerApp] Saving file at /chap8/chap8.ipynb
+[I 2025-12-26 20:31:38.206 ServerApp] Saving file at /chap8/chap8.ipynb
+[W 2025-12-26 20:33:22.272 ServerApp] 404 GET /api/contents/chap8/chap8.ipynb?content=0&hash=1&contentProviderId=undefined&1766799202261 (0af4acb17caa483b8e832de0e88f07a3@127.0.0.1) 1.79ms referer=http://localhost:8888/notebooks/chap8%2Fchap8.ipynb
+[W 2025-12-26 20:33:22.272 ServerApp] 404 GET /api/contents/chap8/chap8.ipynb?content=0&hash=1&contentProviderId=undefined&1766799202261 (127.0.0.1): No such file or directory: chap8/chap8.ipynb
+[I 2025-12-26 20:33:22.281 ServerApp] Uploading file to /chap8/chap8.ipynb
+[E 2025-12-26 20:33:22.292 ServerApp] Error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 963, in save
+        await self._save_notebook(os_path, nb, capture_validation_error=validation_error)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 514, in _save_notebook
+        with self.atomic_writing(os_path, encoding="utf-8") as f:
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 246, in atomic_writing
+        with atomic_writing(os_path, *args, **kwargs) as f:
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 138, in atomic_writing
+        fileobj = open(path, "w", encoding=encoding, **kwargs)  # noqa: SIM115
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+[W 2025-12-26 20:33:22.295 ServerApp] 500 PUT /api/contents/chap8/chap8.ipynb?1766799202277 (127.0.0.1): Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+[W 2025-12-26 20:33:22.296 ServerApp] wrote error: "Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'"
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 963, in save
+        await self._save_notebook(os_path, nb, capture_validation_error=validation_error)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 514, in _save_notebook
+        with self.atomic_writing(os_path, encoding="utf-8") as f:
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 246, in atomic_writing
+        with atomic_writing(os_path, *args, **kwargs) as f:
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 138, in atomic_writing
+        fileobj = open(path, "w", encoding=encoding, **kwargs)  # noqa: SIM115
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/tornado/web.py", line 1859, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/handlers.py", line 322, in put
+        await self._upload(model, path)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/handlers.py", line 225, in _upload
+        model = await ensure_async(self.contents_manager.new(model, path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/manager.py", line 1017, in new
+        model = await self.save(model, path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/largefilemanager.py", line 133, in save
+        return await super().save(model, path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 978, in save
+        raise web.HTTPError(500, f"Unexpected error while saving file: {path} {e}") from e
+    tornado.web.HTTPError: HTTP 500: Internal Server Error (Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb')
+[E 2025-12-26 20:33:22.301 ServerApp] {
+      "Host": "localhost:8888",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/chap8%2Fchap8.ipynb",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    }
+[E 2025-12-26 20:33:22.301 ServerApp] 500 PUT /api/contents/chap8/chap8.ipynb?1766799202277 (0af4acb17caa483b8e832de0e88f07a3@127.0.0.1) 21.23ms referer=http://localhost:8888/notebooks/chap8%2Fchap8.ipynb
+[W 2025-12-26 20:33:25.974 ServerApp] 404 GET /api/contents/chap8/chap8.ipynb?content=0&hash=1&contentProviderId=undefined&1766799205966 (0af4acb17caa483b8e832de0e88f07a3@127.0.0.1) 1.54ms referer=http://localhost:8888/notebooks/chap8%2Fchap8.ipynb
+[W 2025-12-26 20:33:25.974 ServerApp] 404 GET /api/contents/chap8/chap8.ipynb?content=0&hash=1&contentProviderId=undefined&1766799205966 (127.0.0.1): No such file or directory: chap8/chap8.ipynb
+[I 2025-12-26 20:33:25.982 ServerApp] Uploading file to /chap8/chap8.ipynb
+[E 2025-12-26 20:33:26.005 ServerApp] Error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 963, in save
+        await self._save_notebook(os_path, nb, capture_validation_error=validation_error)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 514, in _save_notebook
+        with self.atomic_writing(os_path, encoding="utf-8") as f:
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 246, in atomic_writing
+        with atomic_writing(os_path, *args, **kwargs) as f:
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 138, in atomic_writing
+        fileobj = open(path, "w", encoding=encoding, **kwargs)  # noqa: SIM115
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+[W 2025-12-26 20:33:26.009 ServerApp] 500 PUT /api/contents/chap8/chap8.ipynb?1766799205978 (127.0.0.1): Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+[W 2025-12-26 20:33:26.009 ServerApp] wrote error: "Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'"
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 963, in save
+        await self._save_notebook(os_path, nb, capture_validation_error=validation_error)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 514, in _save_notebook
+        with self.atomic_writing(os_path, encoding="utf-8") as f:
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 246, in atomic_writing
+        with atomic_writing(os_path, *args, **kwargs) as f:
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 138, in atomic_writing
+        fileobj = open(path, "w", encoding=encoding, **kwargs)  # noqa: SIM115
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/tornado/web.py", line 1859, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/handlers.py", line 322, in put
+        await self._upload(model, path)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/handlers.py", line 225, in _upload
+        model = await ensure_async(self.contents_manager.new(model, path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/manager.py", line 1017, in new
+        model = await self.save(model, path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/largefilemanager.py", line 133, in save
+        return await super().save(model, path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 978, in save
+        raise web.HTTPError(500, f"Unexpected error while saving file: {path} {e}") from e
+    tornado.web.HTTPError: HTTP 500: Internal Server Error (Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb')
+[E 2025-12-26 20:33:26.016 ServerApp] {
+      "Host": "localhost:8888",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/chap8%2Fchap8.ipynb",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    }
+[E 2025-12-26 20:33:26.016 ServerApp] 500 PUT /api/contents/chap8/chap8.ipynb?1766799205978 (0af4acb17caa483b8e832de0e88f07a3@127.0.0.1) 35.02ms referer=http://localhost:8888/notebooks/chap8%2Fchap8.ipynb
+[W 2025-12-26 20:33:38.232 ServerApp] 404 GET /api/contents/chap8/chap8.ipynb?content=0&hash=1&contentProviderId=undefined&1766799218224 (0af4acb17caa483b8e832de0e88f07a3@127.0.0.1) 1.41ms referer=http://localhost:8888/notebooks/chap8%2Fchap8.ipynb
+[W 2025-12-26 20:33:38.232 ServerApp] 404 GET /api/contents/chap8/chap8.ipynb?content=0&hash=1&contentProviderId=undefined&1766799218224 (127.0.0.1): No such file or directory: chap8/chap8.ipynb
+[I 2025-12-26 20:33:38.237 ServerApp] Uploading file to /chap8/chap8.ipynb
+[E 2025-12-26 20:33:38.247 ServerApp] Error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 963, in save
+        await self._save_notebook(os_path, nb, capture_validation_error=validation_error)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 514, in _save_notebook
+        with self.atomic_writing(os_path, encoding="utf-8") as f:
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 246, in atomic_writing
+        with atomic_writing(os_path, *args, **kwargs) as f:
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 138, in atomic_writing
+        fileobj = open(path, "w", encoding=encoding, **kwargs)  # noqa: SIM115
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+[W 2025-12-26 20:33:38.249 ServerApp] 500 PUT /api/contents/chap8/chap8.ipynb?1766799218235 (127.0.0.1): Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+[W 2025-12-26 20:33:38.249 ServerApp] wrote error: "Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'"
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 963, in save
+        await self._save_notebook(os_path, nb, capture_validation_error=validation_error)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 514, in _save_notebook
+        with self.atomic_writing(os_path, encoding="utf-8") as f:
+             ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 246, in atomic_writing
+        with atomic_writing(os_path, *args, **kwargs) as f:
+             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/contextlib.py", line 141, in __enter__
+        return next(self.gen)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/fileio.py", line 138, in atomic_writing
+        fileobj = open(path, "w", encoding=encoding, **kwargs)  # noqa: SIM115
+    FileNotFoundError: [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb'
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/opt/anaconda3/lib/python3.13/site-packages/tornado/web.py", line 1859, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/handlers.py", line 322, in put
+        await self._upload(model, path)
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/handlers.py", line 225, in _upload
+        model = await ensure_async(self.contents_manager.new(model, path))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/manager.py", line 1017, in new
+        model = await self.save(model, path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/largefilemanager.py", line 133, in save
+        return await super().save(model, path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/anaconda3/lib/python3.13/site-packages/jupyter_server/services/contents/filemanager.py", line 978, in save
+        raise web.HTTPError(500, f"Unexpected error while saving file: {path} {e}") from e
+    tornado.web.HTTPError: HTTP 500: Internal Server Error (Unexpected error while saving file: chap8/chap8.ipynb [Errno 2] No such file or directory: '/home/jeking/github/pandas_numpy_matplotlib/EDA/chap8/chap8.ipynb')
+[E 2025-12-26 20:33:38.251 ServerApp] {
+      "Host": "localhost:8888",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/chap8%2Fchap8.ipynb",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    }
+[E 2025-12-26 20:33:38.251 ServerApp] 500 PUT /api/contents/chap8/chap8.ipynb?1766799218235 (0af4acb17caa483b8e832de0e88f07a3@127.0.0.1) 14.14ms referer=http://localhost:8888/notebooks/chap8%2Fchap8.ipynb
+[I 2025-12-26 20:34:34.130 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:df8d09f4-4863-4a2b-b80c-41c3d046fe6d
+[I 2025-12-26 20:34:37.248 ServerApp] Adapting from protocol version 5.3 (kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1) to 5.4 (client).
+[I 2025-12-26 20:34:37.249 ServerApp] Connecting to kernel 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1.
+[I 2025-12-26 20:34:37.261 ServerApp] Adapting from protocol version 5.3 (kernel 7e461606-a64e-419a-bb72-f5d6c729b347) to 5.4 (client).
+[I 2025-12-26 20:34:37.262 ServerApp] Connecting to kernel 7e461606-a64e-419a-bb72-f5d6c729b347.
+[I 2025-12-26 20:34:37.363 ServerApp] Starting buffering for 2f2e73f3-fe32-4f7e-a96f-d57bad4eebc1:d1e46527-e43e-4be3-be6b-628a07d75dbe
+[I 2025-12-26 20:34:37.428 ServerApp] Starting buffering for 7e461606-a64e-419a-bb72-f5d6c729b347:3e8b053b-4242-4ce1-9af9-6d85efc54369
