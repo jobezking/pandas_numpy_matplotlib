@@ -1,6 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.datasets import fetch_california_housing
 
 df = sns.load_dataset('titanic') #Load example dataset.
 df.head() #Display the first few rows of the dataset.
@@ -65,3 +66,13 @@ plt.legend()
 plt.show()
 #Remove outliers
 df = df[(df['fare'] >= lower) & (df['fare'] <= upper)]
+
+data = fetch_california_housing(as_frame=True, data_home='./temp_data')
+df = data.frame
+df.head()
+df.corr()['MedHouseVal'].sort_values(ascending=False) #calcuate correlation with target variable MedHouseVal
+#Correlation Heatmap
+plt.figure(figsize=(10,8))
+sns.heatmap(df.corr(),annot=False,cmap='coolwarm')
+plt.title("Correlation Heatmap")
+plt.show()
