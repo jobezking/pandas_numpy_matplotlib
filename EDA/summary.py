@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_california_housing
 
 df = sns.load_dataset('titanic') #Load example dataset.
+num_features = titanic.select_dtypes(include=['int64','float64']).columns
+cat_features = titanic.select_dtypes(include=['object']).columns
+features = df.drop('column_name', axis=1)
+target  df['column_name']
+
 df.head() #Display the first few rows of the dataset.
 df.info() #Get a summary of the dataset including data types and non-null counts. Pick features and target variable.
 df.describe() #Get statistical summary of numerical features. 
@@ -35,6 +40,7 @@ plt.show()
 df.dtypes #Check data types of each column.
 df['column'] = df['column'].astype('float') #Convert a column to a different data type.
 df.isnull().sum() #Check for missing values in each column.
+df.isna().sum()   #Check for missing values in each column.
 df.dropna(inplace=True) #Remove rows with missing values.
 df['age'] = df['age'].fillna(df['age'].median()) #Fill missing values in 'age' column with median age.
 df.duplicated().sum() #Check for duplicate rows in the dataset.
@@ -76,3 +82,12 @@ plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(),annot=False,cmap='coolwarm')
 plt.title("Correlation Heatmap")
 plt.show()
+
+numeric_features = ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
+for col in numeric_features:
+    plt.figure(figsize=(7,4))
+    sns.histplot(df[col],kde=True,bins=20)
+    plt.title(f"Distribution of {col}")
+    plt.show()
+
+df[numeric_features].skew()
